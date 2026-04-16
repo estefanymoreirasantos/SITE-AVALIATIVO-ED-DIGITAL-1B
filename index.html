@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo das Raposas | Inteligência e Beleza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="accessibility-bar" aria-label="Controles de acessibilidade">
+        <button onclick="changeFontSize('increase')" aria-label="Aumentar fonte">A+</button>
+        <button onclick="changeFontSize('decrease')" aria-label="Diminuir fonte">A-</button>
+        <button onclick="toggleContrast()" aria-label="Alternar alto contraste">Alto Contraste</button>
+    </nav>
+
+    <header>
+        <h1>🦊 Natureza Selvagem: Raposas</h1>
+        <p>Conheça as curiosidades e espécies desse canídeo fascinante.</p>
+    </header>
+
+    <main>
+        <section id="especies" aria-labelledby="titulo-especies">
+            <h2 id="titulo-especies">Espécies em Destaque</h2>
+            <div id="galeria-container" class="grid-container">
+                </div>
+        </section>
+
+        <section id="faq" aria-labelledby="titulo-faq">
+            <h2 id="titulo-faq">Curiosidades Rápidas</h2>
+            <div id="accordion-container">
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Projeto Raposa - Foco em UX e Acessibilidade</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
